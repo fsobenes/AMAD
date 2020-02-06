@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   AnimalsList.plist
+   Lab 1
+
+   Created by Fiorella Sobenes on 2/5/20.
+   Copyright (c) 2020 Fiorella Sobenes. All rights reserved.
+-->
+<plist version="1.0">
+<array>
+   <dict>
+       <key>animal</key>
+       <string>Dogs</string>
+       <key>breed</key>
+       <array>
+           <string>Husky</string>
+           <string>Pomeranian</string>
+           <string>Shiba Inu</string>
+           <string>Yorkshire Terrier</string>
+           <string>Pug</string>
+           <string>Poodle</string>
+           <string>Chihuahua</string>
+       </array>
+   </dict>
+   <dict>
+       <key>animal</key>
+       <string>Cats</string>
+       <key>breed</key>
+       <array>
+           <string>Persial</string>
+           <string>Siamese</string>
+           <string>Bengal</string>
+           <string>Ragdoll</string>
+           <string>Sphynx</string>
+           <string>Munchkin</string>
+       </array>
+   </dict>
+   <dict>
+       <key>animal</key>
+       <string>Birds</string>
+       <key>breed</key>
+       <array>
+           <string>Duck</string>
+           <string>Parrot</string>
+           <string>Chicken</string>
+           <string>Lovebird</string>
+           <string>Budgeriar</string>
+       </array>
+   </dict>
+</array>
+</plist>
