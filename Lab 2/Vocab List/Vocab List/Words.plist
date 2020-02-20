@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>speech</key>
+		<string>Verb</string>
+		<key>word</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>speech</key>
+		<string>Noun</string>
+		<key>word</key>
+		<array>
+            <string>House</string>
+        </array>
+	</dict>
+	<dict>
+		<key>speech</key>
+		<string>Adjective</string>
+		<key>word</key>
+		<array>
+			<string>Pretty</string>
+		</array>
+	</dict>
+</array>
+</plist>
