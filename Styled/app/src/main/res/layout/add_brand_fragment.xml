@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/darkbuttonbackground" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AddBrandFragment">
+<RelativeLayout
+    android:background="@color/colorPurpel"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_margin="20dp"
+        android:background="@drawable/backbtn"
+        android:textSize="40dp"
+        android:padding="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+    <TextView
+        android:layout_margin="15dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:text="Save"
+        android:layout_alignParentRight="true"
+        android:id="@+id/txt_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
+
+    <TextView
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/txt_brand"
+        android:text="Brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:textColor="#000"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/txt_brand"
+        android:id="@+id/edit_brand_name"
+        android:layout_width="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

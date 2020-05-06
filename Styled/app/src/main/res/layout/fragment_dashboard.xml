@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/darkbuttonbackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:background="@color/colorPurpel"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/img_add"
+        android:text="Your Brands"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="24dp" />
+    <ImageView
+        android:layout_marginTop="7dp"
+        android:backgroundTint="@color/colorWhite"
+    android:src="@drawable/plus"
+android:tint="@color/colorWhite"
+    android:layout_alignParentRight="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/img_add"
+        android:padding="10dp"
+    android:layout_width="40dp"
+    android:layout_height="40dp"/>
+    <ListView
+        android:layout_below="@+id/relative"
+        android:id="@+id/userlist"
+        android:divider="#A8A8A8"
+        android:dividerHeight="1dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+</RelativeLayout>

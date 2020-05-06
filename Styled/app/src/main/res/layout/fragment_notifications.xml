@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment">
+<RelativeLayout
+    android:id="@+id/relative"
+    android:background="@color/colorPurpel"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="24dp"
+        android:text="Discover Brands"
+        android:textAlignment="center"
+        android:layout_toLeftOf="@+id/img_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ListView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/relative"
+        android:divider="#A8A8A8"
+        android:dividerHeight="1dip"
+        android:id="@+id/userlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="57dp">
+    </ListView>
+    <FrameLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
